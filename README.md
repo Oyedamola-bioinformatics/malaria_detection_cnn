@@ -1,3 +1,5 @@
+`Python 3.10` `TensorFlow 2.x` `Accuracy 95.68%`
+
 # Malaria Parasite Detection using Convolutional Neural Network
 
 Automated detection of Plasmodium parasites in thin blood smear images.
@@ -14,15 +16,5 @@ Automated detection of Plasmodium parasites in thin blood smear images.
 - Total Parameters: 1,629,473
 
 ## Performance
-- Training Accuracy: 95.99%
-- Validation Accuracy: 95.68%
-- Loss: binary_crossentropy
-- Optimizer: Adam
-
-## Tech Stack
-Python, TensorFlow 2.x, Keras, CNN
-
-## Usage
-```python
-model = tf.keras.models.load_model("malaria_cnn_model.h5")
-pred = model.predict(image)
+- Training: 95.99%
+- Validation: 95.68%
